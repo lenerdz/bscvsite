@@ -45,6 +45,13 @@ a.fonts-icons:active, a.fonts-icons.active {
 .form-wrapper .custom-select-box .custom-select-button:after {
   color: #3333ff; }
 
+input,
+textarea {
+  border: solid #555 1px;
+  background-color: #555;
+  color: white;
+}
+
 .form-wrapper input[type=text]:hover + .form-validation, .form-wrapper input[type=text]:focus + .form-validation, .form-wrapper input[type=text]:active + .form-validation, .form-wrapper input[type=text].hover + .form-validation, .form-wrapper input[type=text].active + .form-validation,
 .form-wrapper input[type=email]:hover + .form-validation,
 .form-wrapper input[type=email]:focus + .form-validation,
@@ -451,7 +458,6 @@ img {
 .form-wrapper input[type=email] {
   height: 50px;
   width: 100%;
-  border: 1px solid #e3e3e3;
   border-radius: 2px;
   padding: 0 20px;
   -webkit-transition: all 0.3s ease;
@@ -484,7 +490,6 @@ img {
 .form-wrapper textarea {
   height: 130px;
   width: 100%;
-  border: 1px solid #e3e3e3;
   padding: 15px 20px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;

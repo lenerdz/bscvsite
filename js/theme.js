@@ -141,8 +141,8 @@ $(document).ready(function () {
       error: function() {
         console.log('error');
         $('#contact-modal').modal('hide');
-        // $('#error-modal').modal('show');
-        $('#thanks-modal').modal('show');
+        $('#error-modal').modal('show');
+        // $('#thanks-modal').modal('show');
 
       }
     });
